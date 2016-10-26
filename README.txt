@@ -21,7 +21,7 @@ Follow the steps below to get started:
 3. Edit your HTML-page:
    - change the file extension to .php
    - add the line at the top of the file:  
-		  <? include("php-viking/viking.php") ?>
+		  <?php include("php-viking/viking.php") ?>
    
    Now you are ready to add the viking functions you need!
 
@@ -90,7 +90,7 @@ Example of html-code in a viking-file.
   </tr>
   <tr>
     <td colspan="2" class="nav" style="background-image: url('images/k_02.jpg')" width="870">
-    <? phpsax_3_addObjectLink(1); ?>
+    <?php phpsax_3_addObjectLink(1); ?>
 	<a href="#">&nbsp;Link</a>1&nbsp;&nbsp;
 	<a href="#">Link</a>2&nbsp;&nbsp;
 	<a href="#">Link</a>3&nbsp;&nbsp;
