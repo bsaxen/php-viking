@@ -42,19 +42,19 @@ Follow the steps below to get started:
         3 structure
 
            Functions 
-              phpsax_3_selectDb(id)
-              phpsax_3_createDb(id)
-              phpsax_3_createDbLink(id)
-              phpsax_3_addObject(id)
-              phpsax_3_addObjectLink(id)
-              phpsax_3_setText(id)
-              phpsax_3_setTextLink(id)
-              phpsax_3_setImage(id)
-              phpsax_3_setImageLink(id)
-              phpsax_3_showDb(id)
-              phpsax_3_showDbName(id)
-              phpsax_3_showObject(id)
-              phpsax_3_showObjectName(id)
+              viking_3_selectDb(id)
+              viking_3_createDb(id)
+              viking_3_createDbLink(id)
+              viking_3_addObject(id)
+              viking_3_addObjectLink(id)
+              viking_3_setText(id)
+              viking_3_setTextLink(id)
+              viking_3_setImage(id)
+              viking_3_setImageLink(id)
+              viking_3_showDb(id)
+              viking_3_showDbName(id)
+              viking_3_showObject(id)
+              viking_3_showObjectName(id)
            where id (value 1,2,3,4) is used to seperate between different instances 
            of the application.
            
@@ -90,7 +90,7 @@ Example of html-code in a viking-file.
   </tr>
   <tr>
     <td colspan="2" class="nav" style="background-image: url('images/k_02.jpg')" width="870">
-    <?php phpsax_3_addObjectLink(1); ?>
+    <?php viking_3_addObjectLink(1); ?>
 	<a href="#">&nbsp;Link</a>1&nbsp;&nbsp;
 	<a href="#">Link</a>2&nbsp;&nbsp;
 	<a href="#">Link</a>3&nbsp;&nbsp;
@@ -139,7 +139,7 @@ Example of html-code in a viking-file.
 	</tr>
 	<tr>
 	  <td>
-	<?php phpsax_3_showDb(3); ?>
+	<?php viking_3_showDb(3); ?>
 	  </td>
 	</tr>
 
