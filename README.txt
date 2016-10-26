@@ -28,10 +28,10 @@ Follow the steps below to get started:
 4. Add viking functions
 
    You can insert a viking functions at suitable locations in your HTML-code, by adding
-                  <? viking_<N>_<function(M)> ?>
+                  <?php viking_<N>_<function(M)> ?>
    where N is the number of the application (see list below) and <function(M)> is a 
    function available for this application. Example:
-      <? viking_3_addObject
+      <?php viking_3_addObject ?>
 
    The following applications are available:
 
@@ -76,7 +76,7 @@ Follow the steps below to get started:
 ========================================================================
 Example of html-code in a viking-file.
 ========================================================================
-<?include("php-viking/viking.php") ?>
+<?php include("php-viking/viking.php") ?>
 <html>
 <head>
 <title>Site Name</title>
@@ -105,51 +105,51 @@ Example of html-code in a viking-file.
         </tr>
         <tr>
           <td>
-<? viking_3_selectDb(1); ?>
-<? viking_3_selectDb(2); ?>
-<? viking_3_selectDb(3); ?>
-<? viking_3_selectDb(4); ?>
+<?php viking_3_selectDb(1); ?>
+<?php viking_3_selectDb(2); ?>
+<?php viking_3_selectDb(3); ?>
+<?php viking_3_selectDb(4); ?>
 
 	  </td>
 	</tr>
 
 	<tr>
 	  <td class="lefth" style="border-top:1px solid #000000; background-image:url('images/k_03.jpg')"><b>
-	  <?viking_3_showDbName(1);?></b></td>
+	  <?php viking_3_showDbName(1);?></b></td>
 	</tr>
 	<tr>
 	  <td>
-	<? viking_3_showDb(1); ?>
+	<?php viking_3_showDb(1); ?>
 	  </td>
 	</tr>
 
 	<tr>
 	  <td class="lefth" style="border-top:1px solid #000000; background-image:url('images/k_03.jpg')"><b>
-      <?viking_3_showDbName(2);?></b></td>
+      <?php viking_3_showDbName(2);?></b></td>
 	</tr>
 	<tr>
 	  <td>
-	<? viking_3_showDb(2); ?>
+	<?php viking_3_showDb(2); ?>
 	  </td>
 	</tr>
 
 	<tr>
 	  <td class="lefth" style="border-top:1px solid #000000; background-image:url('images/k_03.jpg')"><b>
-      <?viking_3_showDbName(3);?></b></td>
+      <?php viking_3_showDbName(3);?></b></td>
 	</tr>
 	<tr>
 	  <td>
-	<? phpsax_3_showDb(3); ?>
+	<?php phpsax_3_showDb(3); ?>
 	  </td>
 	</tr>
 
 	<tr>
 	  <td class="lefth" style="border-top:1px solid #000000; background-image:url('images/k_03.jpg')"><b>
-      <?viking_3_showDbName(4);?></b></td>
+      <?php viking_3_showDbName(4);?></b></td>
 	</tr>
 	<tr>
 	  <td>
-	<? viking_3_showDb(4); ?>
+	<?php viking_3_showDb(4); ?>
 	  </td>
 	</tr>
 
@@ -168,10 +168,10 @@ Example of html-code in a viking-file.
     <td width="660" class="rightm">
 	<p style="margin-top: 0; margin-bottom: 0">&nbsp;</p>
 	<p style="margin-top: 0; margin-bottom: 0">
-	<? viking_3_showObject(1); ?>
-	<? viking_3_showObject(2); ?>
-	<? viking_3_showObject(3); ?>
-	<? viking_3_showObject(4); ?>
+	<?php viking_3_showObject(1); ?>
+	<?php viking_3_showObject(2); ?>
+	<?php viking_3_showObject(3); ?>
+	<?php viking_3_showObject(4); ?>
     </td>
   </tr>
 </table>
